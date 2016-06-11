@@ -1,0 +1,69 @@
+  body{
+      /*background-color: #DECADE*/
+      background-color: grey;
+    }
+    /*middle*/
+    #wrapper{
+      width:100%;
+      padding-top: 5%;
+      text-align:center;
+    }
+    #middle{
+      display:inline-block;
+      width:40%;
+      height:600px;
+    }
+    #articles{
+      width:100%;
+      height:600px;
+      overflow: auto;
+      background-color:white;
+    }
+    #getArticle{
+      width:60px;
+      height:40px;
+      margin:5px;
+      font-size:15pt;
+    }
+
+    /*right side*/
+    #right{
+      width:20%;
+      float:right;
+      height:200px;
+      display:inline-block;
+      margin-right:30px;
+    }
+    #notes{
+      width:100%;
+      background-color: white;
+      height: 300px;
+      overflow:auto;
+    }
+    #noteDelete{
+      width:60px;
+      height:30px;
+      margin:5px;
+    }
+
+
+    /*left side*/
+    #input{
+      float:left;
+      height:300px;
+      width:20%;
+      display:inline-block;
+      margin-left:30px;
+
+    }
+    textarea{
+      height:300px;
+      width:100%;
+      font-size: 18px;
+      background-color:white;
+      overflow:auto;
+    }
+    #noteAdd{
+      width:40px;
+      height:30px;
+    }
